@@ -47,6 +47,29 @@ Why should we use @decorators? Three reasons!
 
 
 
+Example: My startup idea
+Product is bleeding edge, big data, utilizes machine learning, distributed, on the cloud, omnichannel, lean, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 My business plan
     1) Calculate maths
     2) ???
@@ -72,9 +95,7 @@ My business plan
 
 
 
-Product is bleeding edge, big data, utilizes machine learning, distributed, on the cloud, omnichannel, agile, etc.
-
-Also lean, need to trim the fat. Only enough room in this town for one math function. 
+We're lean! Need to trim the fat. Only enough room in this town for one math function. 
 We'll keep the function with the fastest execution time. Let's time them.
 
 
