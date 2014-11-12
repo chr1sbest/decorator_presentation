@@ -8,8 +8,6 @@ def timer(func):    # Takes decorated function as the sole parameter.
         start_time = now()
         result = func(*args, **kwargs) # Decorated function executes.
         end_time = now()
-
-        # Calculate and print the execution time.
         exec_time = end_time - start_time
         print "Execution time was {0}ms".format(exec_time)
         return result
