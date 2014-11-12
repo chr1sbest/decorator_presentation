@@ -13,5 +13,5 @@ def timer(func):    # Takes decorated function as the sole parameter.
         return result
     return wrapper
 
-# If not decorated,          func() runs as -> func()
-# If decorated with @timer,  func() runs as -> timer(func())
+# If func not decorated,          func() runs as -> func()
+# If func decorated with @timer,  func() runs as -> timer(func())
