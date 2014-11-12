@@ -11,6 +11,9 @@ def timer(func):    # Takes decorated function as the sole parameter.
 
         # Calculate and print the execution time.
         exec_time = end_time - start_time
-        print "Execution time was {0} ms".format(exec_time)
+        print "Execution time was {0}ms".format(exec_time)
         return result
     return wrapper
+
+# If not decorated,          func() runs as -> func()
+# If decorated with @timer,  func() runs as -> timer(func())
