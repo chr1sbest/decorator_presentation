@@ -2,25 +2,125 @@ Hi everyone, I'm Chris :)
 
 This lightning talk will be brief introduction to writing python @decorators!
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Why should we use @decorators? Three reasons!
     1) Unintrusively inject or modify existing functions or classes
     2) Separation of concerns (Loose Coupling)
     3) Code reusability (DRY)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 My business plan
     1) Calculate maths
     2) ???
     3) Profit
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Product is bleeding edge, big data, utilizes machine learning, distributed, on the cloud, omnichannel, agile, etc.
 
 Also lean, need to trim the fat. Only enough room in this town for one math function. 
 We'll keep the function with the fastest execution time. Let's time them.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 What's wrong?
     1) Added a bunch of useless stuff to my golden algorithms
     2) Tied in timing logic with my core algos
     3) Shameless repetition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Let's revisit the three reasons why we would use @decorators?
     1) Unintrusively inject or modify existing functions or classes
@@ -28,6 +128,26 @@ Let's revisit the three reasons why we would use @decorators?
     3) Code reusability (DRY)
 
 Seems like the right place. Let's look at the implementation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Decorator syntax can be a little tricky at first! 
 
@@ -38,10 +158,50 @@ Three important things to note!
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 There are a lot of really cool things you can do with decorators that I wasn't able to cover in 5 minutes.
 Plenty of examples online! Hopefully this introduction has convinced you to try writing your own @decorators!
 
 Last words..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

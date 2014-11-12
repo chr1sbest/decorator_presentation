@@ -1,7 +1,7 @@
 from functools import wraps
 from time import time as now
 
-def time_decorator(func):
+def timer(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
         """Prints the execution time of a function."""
