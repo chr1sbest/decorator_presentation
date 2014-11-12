@@ -1,13 +1,12 @@
 from functools import wraps
 from time import time as now
 
-def timer(func):
-    @wraps(func)
+def timer(func):    # Takes decorated function as the sole parameter.
+    @wraps(func)    # Passes decorated function's metadata to wrapper.
     def wrapper(*args, **kwargs):
         """Prints the execution time of a function."""
-        # Time the execution of the function.
         start_time = now()
-        result = func(*args, **kwargs) # Decorated function executes here.
+        result = func(*args, **kwargs) # Decorated function executes.
         end_time = now()
 
         # Calculate and print the execution time.

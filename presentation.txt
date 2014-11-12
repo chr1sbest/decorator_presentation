@@ -148,7 +148,7 @@ Let's revisit the three reasons why we would use @decorators?
     2) Separation of concerns (Loose Coupling)
     3) Code reusability (DRY)
 
-Seems like the right place. Let's look at the implementation.
+Seems like the right place to use a decorator.
 
 
 
@@ -173,7 +173,7 @@ Seems like the right place. Let's look at the implementation.
 Decorator syntax can be a little tricky at first! 
 
 Three important things to note!
-    1) The decorated function is passed in as the sole argument to the decorator and executes within the wrapper function.
+    1) The decorated function is passed in as the sole argument to the decorator and executes within the wrapper function. timer(some_calculation(value))
     2) *args and **kwargs are python magic to handle any number of positional arguments and any number of keyword arguments.
     3) @wraps passes function metadata, specifically the __name__ and __doc__ from the original function.
 
