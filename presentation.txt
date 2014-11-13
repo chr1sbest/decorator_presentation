@@ -48,7 +48,7 @@ Why should we use @decorators? Three reasons!
 
 
 Example: My startup idea
-Product is bleeding edge, big data, utilizes machine learning, distributed, on the cloud, omnichannel, lean, etc.
+Product is big data, utilizes machine learning, distributed, omnichannel, lean, etc.
 
 
 
@@ -173,9 +173,12 @@ Seems like the right place to use a decorator.
 Decorator syntax can be a little tricky at first! 
 
 Three important things to note!
-    1) The decorated function is passed in as the sole argument to the decorator and executes within the wrapper function. timer(some_calculation(value))
-    2) *args and **kwargs are python magic to handle any number of positional arguments and any number of keyword arguments.
-    3) @wraps passes function metadata, specifically the __name__ and __doc__ from the original function.
+    1) The decorated function is passed in as the sole argument to the decorator 
+        and executes within the wrapper function. timer(some_calculation(value))
+    2) *args and **kwargs are python magic to handle any number of positional 
+        arguments and any number of keyword arguments.
+    3) @wraps passes function metadata, specifically the __name__ and __doc__ 
+        from the original function.
 
 
 
@@ -197,10 +200,9 @@ Three important things to note!
 
 
 
-
-
-There are a lot of really cool things you can do with decorators that I wasn't able to cover in 5 minutes.
-Plenty of examples online! Hopefully this introduction has convinced you to try writing your own @decorators!
+There are a lot of really cool things you can do with decorators that I wasn't 
+able to cover in 5 minutes. Plenty of examples online! Hopefully this introduction 
+has convinced you to try writing your own @decorators!
 
 Last words..
 
@@ -224,12 +226,10 @@ Last words..
 
 
 
-
-
 Any investors in the room? I'm looking for seed money for this magic math business.
 
-
-Just kidding. I use python as a backend software engineer for DecisionNext -- and we're hiring!
+Just kidding. 
+I use python as a backend software engineer for DecisionNext -- and we're hiring!
 
 
 Thanks for your time! :D

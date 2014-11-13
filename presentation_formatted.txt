@@ -7,14 +7,15 @@ Why should we use @decorators? Three reasons!
     2) Separation of concerns (Loose Coupling)
     3) Code reusability (DRY)
 
+Example: My startup idea
+Product is big data, utilizes machine learning, distributed, omnichannel, lean, etc.
+
 My business plan
     1) Calculate maths
     2) ???
     3) Profit
 
-Product is bleeding edge, big data, utilizes machine learning, distributed, on the cloud, omnichannel, agile, etc.
-
-Also lean, need to trim the fat. Only enough room in this town for one math function. 
+We're lean! Need to trim the fat. Only enough room in this town for one math function. 
 We'll keep the function with the fastest execution time. Let's time them.
 
 What's wrong?
@@ -27,28 +28,28 @@ Let's revisit the three reasons why we would use @decorators?
     2) Separation of concerns (Loose Coupling)
     3) Code reusability (DRY)
 
-Seems like the right place. Let's look at the implementation.
+Seems like the right place to use a decorator.
 
 Decorator syntax can be a little tricky at first! 
 
 Three important things to note!
-    1) The decorated function is passed in as the sole argument to the decorator and executes within the wrapper function.
-    2) *args and **kwargs are python magic to handle any number of positional arguments and any number of keyword arguments.
-    3) @wraps passes function metadata, specifically the __name__ and __doc__ from the original function.
+    1) The decorated function is passed in as the sole argument to the decorator 
+        and executes within the wrapper function. timer(some_calculation(value))
+    2) *args and **kwargs are python magic to handle any number of positional 
+        arguments and any number of keyword arguments.
+    3) @wraps passes function metadata, specifically the __name__ and __doc__ 
+        from the original function.
 
-
-
-There are a lot of really cool things you can do with decorators that I wasn't able to cover in 5 minutes.
-Plenty of examples online! Hopefully this introduction has convinced you to try writing your own @decorators!
+There are a lot of really cool things you can do with decorators that I wasn't 
+able to cover in 5 minutes. Plenty of examples online! Hopefully this introduction 
+has convinced you to try writing your own @decorators!
 
 Last words..
 
-
-
 Any investors in the room? I'm looking for seed money for this magic math business.
 
-
-Just kidding. I use python as a backend software engineer for DecisionNext -- and we're hiring!
+Just kidding. 
+I use python as a backend software engineer for DecisionNext -- and we're hiring!
 
 
 Thanks for your time! :D
